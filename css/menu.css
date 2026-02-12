@@ -36,3 +36,22 @@
 .card h3 {
     margin-bottom: 10px;   
 }
+
+@media (max-width: 600px) {
+    .menu-grid {
+        grid-template-columns: 1fr; 
+        padding: 20px 10px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .dish-img {
+        height: 150px; 
+    }
+
+    .menu-title {
+        font-size: 1.8rem;
+    }
+}
